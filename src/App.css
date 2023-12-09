@@ -1,0 +1,40 @@
+.html,
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: Oooh Baby;
+  background-color: #bca37f;
+  color: #f5f5dc;
+}
+
+.App {
+  text-align: center;
+  font-family: Oooh Baby;
+  background-color: #bca37f;
+  color: #f5f5dc;
+}
+
+.note {
+  font-weight: Bold;
+}
+
+.Date,
+.Number {
+  height: 20px;
+  width: 170px;
+}
+
+.btn {
+  background-color: #f5f5dc;
+  color: #bca37f;
+  border: #f5f5dc;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.Ans {
+  font-weight: Bold;
+  font-size: 25;
+  margin-top: 20px;
+}
