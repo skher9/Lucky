@@ -14,7 +14,7 @@ const Body = () => {
     const arr = No.split("");
 
     arr.forEach((element) => {
-      if (element != "-") {
+      if (element !== "-") {
         element = parseInt(element);
         Ans = Ans + element;
       }
@@ -27,7 +27,7 @@ const Body = () => {
     console.log(Addition);
     console.log(number);
 
-    if (Addition == number) {
+    if (Addition === number) {
       setAns(number + " is Lucky!!! 🥳🥳🥳");
     } else {
       setAns(number + " is not Lucky!!! 😕😕");
